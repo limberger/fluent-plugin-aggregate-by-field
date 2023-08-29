@@ -1,15 +1,15 @@
-# fluent-plugin-fluent-plugin-aggregate-by-field
+# fluent-plugin-aggregate-by-field
 
 [Fluentd](https://fluentd.org/) output plugin to do something.
 
-TODO: write description for you plugin.
+This plugin is to concatenate registers by field.
 
 ## Installation
 
 ### RubyGems
 
 ```
-$ gem install fluent-plugin-fluent-plugin-aggregate-by-field
+$ gem install fluent-plugin-aggregate-by-field
 ```
 
 ### Bundler
@@ -17,7 +17,7 @@ $ gem install fluent-plugin-fluent-plugin-aggregate-by-field
 Add following line to your Gemfile:
 
 ```ruby
-gem "fluent-plugin-fluent-plugin-aggregate-by-field"
+gem "fluent-plugin-aggregate-by-field"
 ```
 
 And then execute:

@@ -6,9 +6,9 @@ class FluentPluginAggregateByFieldOutputTest < Test::Unit::TestCase
     Fluent::Test.setup
   end
 
-  test "failure" do
-    flunk
-  end
+  #test "failure" do
+  #  flunk
+  #end
 
   private
 

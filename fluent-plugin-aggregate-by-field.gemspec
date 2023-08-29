@@ -2,14 +2,14 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = "fluent-plugin-fluent-plugin-aggregate-by-field"
+  spec.name    = "fluent-plugin-aggregate-by-field"
   spec.version = "0.1.0"
-  spec.authors = ["joao.limberger"]
-  spec.email   = ["joao.limberger@bancobmg.com.br"]
+  spec.authors = ["jlimberger"]
+  spec.email   = ["jlimberger@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This plugin is to concatenate registers by field.}
+  spec.description   = %q{This plugin is to concatenate registers by field.}
+  spec.homepage      = "https://github.com/limberger/fluent-plugin-aggregate-by-field"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|

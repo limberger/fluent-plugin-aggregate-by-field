@@ -18,7 +18,7 @@ require "fluent/plugin/output"
 module Fluent
   module Plugin
     class FluentPluginAggregateByFieldOutput < Fluent::Plugin::Output
-      Fluent::Plugin.register_output("fluent_plugin_aggregate_by_field", self)
+      Fluent::Plugin.register_output("aggregate-by-field", self)
       
       # Enable threads if you are writing an async buffered plugin.
       helpers :thread
